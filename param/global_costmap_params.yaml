@@ -1,0 +1,16 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+
+  # update_frequency: 2.0
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  transform_tolerance: 0.5
+
+  static_map: true
+
+  cost_factor: 0.55
+  # neutral_cost: 66
+  neutral_cost: 66
+  # lethal_cost: 253
+  lethal_cost: 253

@@ -1,0 +1,18 @@
+global_frame: map
+robot_base_frame: base_link
+obstacle_range: 2.5
+raytrace_range: 3.0
+robot_radius: 0.105
+# footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+
+inflation_radius: 0.5
+cost_scaling_factor: 8
+inscribed_radius: 0.08
+circumscribed_radius: 0.105
+
+map_type: costmap
+observation_sources: scan # laser_scan_sensor point_cloud_sensor
+scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+
+# point_cloud_sensor: {sensor_frame: frame_name, data_type: PointCloud, topic: topic_name, marking: true, clearing: true}
+
