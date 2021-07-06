@@ -8,3 +8,5 @@ If the robot changes:
 - Change the incribed and circumscribed radius under costmap_common_params.
 
 Current resolution is 0.03.
+
+This link has the definition for the parameters in teb_local_planner: https://www.programmersought.com/article/96211564492/
